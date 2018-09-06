@@ -10,7 +10,7 @@ class Settings():
         """
         self.screen_width = 1200
         self.screen_height = 800
-        self.bg_color = (0, 191, 255)
+        self.bg_color = (255, 255, 255)
 
         # 飞船的速度
         self.ship_speed_factor = 1.5
@@ -22,3 +22,6 @@ class Settings():
         self.bullet_color = 60, 60, 60
         # 限制子弹最大数量
         self.bullets_allowed = 3
+
+        # 外星人设置
+        self.alien_speed_factor = 1
